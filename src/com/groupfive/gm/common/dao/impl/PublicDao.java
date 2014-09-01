@@ -41,6 +41,7 @@ public class PublicDao extends BasicSupportDao implements IPublicDao {
 		//return null;
 	}
 
+	@SuppressWarnings("unchecked")
 	public <T> List<T> list(String hql) {
 		// TODO Auto-generated method stub
 		return (List<T>)this.getHibernateTemplate().find(hql);

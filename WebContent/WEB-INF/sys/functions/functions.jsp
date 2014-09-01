@@ -130,8 +130,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   						<tr>
   							<td></td>
   							<td>
-  								<input type="button" id="btnadd" disabled="true" value="增加子功能" onclick="javascript:addNewNode();"/>
-  								<input type="submit" id="btnsave" value="保存" disabled="true" />
+  								<input type="button" id="btnadd"  value="增加子功能" onclick="javascript:addNewNode();"/>
+  								<input type="submit" id="btnsave" value="保存"  />
   								<input type="button" id="btnedit" value="修改" disabled="true" onclick="javascript:edit();"/>
   								<input type="button" id="btndel" value="删除" disabled="true" onclick="javascript:del();"/>
   							</td>

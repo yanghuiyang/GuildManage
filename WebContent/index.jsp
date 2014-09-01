@@ -21,9 +21,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    <a href="roleuser/sys/role!list.action">系统角色管理</a>
-    <a href="users!list.action">系统角色</a>
-    <a href="com/groupfive/gm/sys/actions/users!list.action">系统角色</a>
+    
+    <a href="users!list.action">系统用户管理</a></br>
+	<a href="function!list.action">系统功能管理</a>
     <%=basePath%>
   </body>
 </html>

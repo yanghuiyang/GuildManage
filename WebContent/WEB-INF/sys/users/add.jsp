@@ -24,7 +24,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    <s:form action="roleright/sys/users!add.action" method="post">
+    <s:form action="/users!add.action" method="post">
     	<table style="width:100%">
     		<tr>
     			<td style="width:30%;text-align: right">用户名：</td>

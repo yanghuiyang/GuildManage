@@ -72,7 +72,6 @@ public class UsersAction extends ActionSupport {
 	{
 		
 		listrole=roleService.list(role);//获取角色下拉列表数据
-		
 		listuser=userService.list(user);
 		return "list";
 	}

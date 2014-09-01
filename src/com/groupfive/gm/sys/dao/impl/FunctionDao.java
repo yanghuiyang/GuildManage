@@ -33,6 +33,7 @@ public class FunctionDao extends BasicSupportDao implements IFunctionDao {
 		return "update";
 	}
 
+	@SuppressWarnings("unchecked")
 	public List<Fuctions> list(Fuctions fun) {
 		// TODO Auto-generated method stu
 		

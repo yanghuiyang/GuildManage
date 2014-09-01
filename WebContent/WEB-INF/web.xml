@@ -18,7 +18,7 @@
             <!-- 
              <param-value>com.zw.action,com.zw.test.action</param-value>
              -->
-            <param-value>com.groupfive.gm.sys.actions</param-value>
+            <param-value>com.groupfive.gm.sys.actions,com.groupfive.gm.im.actions</param-value>
         </init-param>
     </filter>
     <filter-mapping>

@@ -22,9 +22,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	-->
 
   </head>
-  
+  <h1>用户管理</h1>
   <body>
-    <s:form action="roleright/sys/users!list.action" method="post">
+    <s:form action="/users!list.action" method="post">
     	<table style="width:100%">
     		<tr>
     			<td>
@@ -59,10 +59,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					      	  <s:else>女</s:else>
 					      -->
 				      </td>
-				     
 				      <td>
 				      
-				      	<a href="roleright/sys/users!detail.action?user.userId=<s:property value='userId'/>">编辑</a>
+				      	<a href="users!detail.action?user.userId=<s:property value='userId'/>">编辑</a>
 				    
 				      </td> 
 				    </tr>
